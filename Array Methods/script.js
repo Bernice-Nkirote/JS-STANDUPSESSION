@@ -1,43 +1,45 @@
-// LENGTH
-// const fruits = ["Banana","Orange","Apple","Mango"];
+// LENGTH()
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
 // let size = fruits.length;
 // console.log(size);
 
-// const fruits =["Banana","Orange","Apple","Mango"];
-// let listOfFruits = fruits.toString();
-// console.log(listOfFruits);
-
-//JOIN()
-// const fruits =["Banana","Orange","Apple","Mango"];
-// let text = fruits.join("-");
+//toString()
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let text =  fruits.toString();
 // console.log(text);
 
-//POP
-// const fruits =["Banana","Orange","Apple","Mango"];
-// let newtext = fruits.pop();
-// console.log(newtext);
+//JOIN - Joins arrays into a string but you can add the seperator of your choice.
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let fruitSeperator = fruits.join("*");
+// console.log(fruitSeperator);
+
+// POP()
+// const veggies = ["cabbage", "tomatoes", "carrots", "potatoes"];
+// let vendor = veggies.pop();
+// // console.log(vendor);
+// console.log(veggies);
+
+//PUSH()
+// const veggies = ["cabbage", "tomatoes", "carrots", "potatoes"];
+// let shoppingList = veggies.push("onions");
+// console.log(shoppingList);
+// console.log(veggies);
+
+
+// SHIFT
+// const veggies = ["cabbage", "tomatoes", "carrots", "potatoes"];
+// let shortList = veggies.shift();
+// console.log(shortList);
+// console.log(veggies);
+
+//UNSHIFT
+// const fruits = ["cherries", "kiwi", "peaches", "mango"];
+// let newFruit = fruits.unshift("lemon");
+// console.log(newFruit);
 // console.log(fruits);
 
-// PUSH
-// const fruits = ["Banana","Orange","Apple","Mango"];
-// let morefruits = fruits.push("Avacado");
-// console.log(morefruits);
-// console.log(fruits);
-
-// Shift method
-// const fruits = ["Banana","Orange","Apple","Mango"];
-// let text = fruits.shift();
-// console.log(fruits);
-
-// Unshift method
-// const fruits = ["Banana","Orange","Apple","Mango"];
-// let newfruits = fruits.unshift("Lemon");
-// console.log(newfruits);
-// console.log(fruits);
-
-// CONCAT()
-const femaleEmployees = ["Cecile", "Eunice"];
-const maleEmployees = ["John", "Mathew", "Mark"];
-
-let employees = femaleEmployees.concat(maleEmployees);
-console.log(employees);
+// concat()
+// const femaleEmployees = ["Cecilia", "Mercy", "Jane"];
+// const maleEmployees = ["Frank", "John", "Peter"];
+// let employees = femaleEmployees.concat(maleEmployees);
+// console.log(employees);

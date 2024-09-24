@@ -1,43 +1,46 @@
-// let alphabet = "ABCDEFGHIJKLMNOP";
-// console.log(alphabet.length);
+//LENGTH
+//Returns the length of a string
+// let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// let length = text.length;
+// console.log(length);
 
-// Charat menthod
-// let text = "HELLO WORLD";
-// let char = text.charAt(0);
+//CHARAT()
+// let text = "Hello World!";
+// let char = text.charAt(4);
 // console.log(char);
 
-// at method
-// const name = "PowerLearnProject";
-// let letter = name.at(-2);
+//AT()
+// const schoolname = "PowerlearnProjectAfrica";
+// let letter = schoolname.at(-2);
 // console.log(letter);
 
-//SLICE METHOD(START, END)
-
-// let fruits = "Apple, Banana, Orange";
-// let fruit = fruits.slice(7);
-// console.log(fruit);
+// EXTRACTING STRING PARTS
+// SLICE() - TAKES 2 PARAMETERS AND THE END POSITION WILL NOT BE INCLUDED.
+// let fruits = "Apple, Banana, Kiwi";
 // let part = fruits.slice(7,13);
+// let part = fruits.slice(7)
+// let part = fruits.slice(-12);
 // console.log(part);
 
-// SUBSTRING METHOD
-// let countries = "Madagascar, Kenya, Nigeria";
-// let part = countries.substring(7,13);
-// console.log(part);
+// substring()
+// let str = "Apple, Banana, Kiwi";
+// let part2 = str.substring(7, 13);
+// console.log(part2);
 
-// LOWERCASE AND UPPERCASE METHODS
-// UPPERCASE
-// let greeting = "Hello there!";
-// let text2 = greeting.toLowerCase();
-// console.log(text2);
-// let text = greeting.toUpperCase();
+//CONVERTING TO UPPER AND LOWERCASE
+//toUpperCase()
+// let country = "madagascar";
+// let countryName = country.toUpperCase();
+// console.log(countryName);
+
+//toLowerCase()
+// let firstname = "MICHAEL";
+// let lowerName = firstname.toLowerCase();
+// console.log(lowerName);
+
+//CONCAT()
+//Joins two or more strings
+// let text = "Hello" + " " + "World";
 // console.log(text);
-
-// CONCAT
-let text = "Hello" + " " +"World"; 
-let texthello = "Hello".concat(" ", "World!");
-
-console.log(texthello);
-
-
-
-
+// let text2 = "Hello".concat(" ", "World!!!!");
+// console.log(text2);
