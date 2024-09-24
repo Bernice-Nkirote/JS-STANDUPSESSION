@@ -1,0 +1,59 @@
+What is a string?
+Strings are for storing text
+Strings are written with quotes
+
+// let text = "Mombasa";
+
+///Qoutes inside quotes
+// let answer2 = "He is called 'Johnny'";
+// console.log(answer2);
+
+// Template string
+// let text = `He's often called "Johnny"`;
+// console.log(text)
+
+#### STRING METHODS
+##length of a string
+// let text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+// console.log(text.length);
+## Extracting string characters
+---> charAt()
+The charAt() method returns the character at a specified index (position) in a string:
+Example:
+let text = "HELLO WORLD";
+let char = text.charAt(0);
+
+---> at() - introduced in es 20222
+const name = "W3Schools";
+let letter = name.at(2);
+
+Extracting String Parts
+There are 3 methods for extracting a part of a string:
+
+--> slice(start, end)
+let text = "Apple, Banana, Kiwi";
+let part = text.slice(7, 13);
+
+-->substring(start, end)
+The substring() method in JavaScript extracts a portion of a string between
+two indices (start and end) and returns it as a new string.
+If you pass a negative number as the start or end parameter,
+ substring() will treat it as 0
+let str = "Hello World";
+
+// Using substring() with a negative start or end value
+console.log(str.substring(-3, 5)); // "Hello"
+console.log(str.substring(0, -2));
+
+-->UPPERCASE
+let text1 = "Hello World!";
+let text2 = text1.toUpperCase();
+-->LOWERCASE
+let text1 = "Hello World!";
+let text2 = text1.toLowerCase();
+
+
+-->CONCAT
+concat() joins two or more strings:
+let text = "Hello".concat(" ", "World!");
+console.log(text)

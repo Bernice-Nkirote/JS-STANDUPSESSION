@@ -1,0 +1,27 @@
+The procees of using Github 
+git init
+git add .
+git commit -m "first commit"
+git push -u origin master 
+
+////// git checkout and Merge
+git checkout branch name -----> used when you have an existing branch
+git checkout -b new-branch-name -----> used when you want to create new branch
+
+///// git Merge
+###Switch into branch you want to make changes into:
+git checkout main
+
+###Merge the other branch into current branch
+git merge new-branch
+
+### Delete the branch
+git branch -d branch-name
+
+NB: You can also force delete without merging changes :
+git branch -D branch-name
+
+### Delete remote repository
+git push origin --delete branch-name
+----> this will remove branch from remote repository where it's store e.g Github
+and once deleted it will not appear locally as well
